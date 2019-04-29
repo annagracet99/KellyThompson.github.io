@@ -19,7 +19,7 @@ h4 {
 }
 #nav_menu {
     position: fixed; 
-    margin-top: 255px; 
+    margin-top: 280px; 
     z-index: 11; 
     height: 60px;
     width: 100%;
@@ -776,7 +776,7 @@ h2 {
         padding-left: 10%; 
         display: grid; 
         grid-template-columns: 330px 330px;
-        grid-template-rows: repeat(10, 420px);
+        grid-template-rows: repeat(11, 420px);
     }
     .container1 {
         grid-column: 1/2; 
@@ -938,6 +938,14 @@ h2 {
         grid-template-rows: 1fr;
         align-self: center; 
     }
+    .container21 {
+        grid-column: 1/2; 
+        grid-row: 11/12; 
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr;
+        align-self: center; 
+    }
     .contactform {
         margin-left: 20%; 
     }
@@ -950,7 +958,7 @@ h2 {
         padding-left: 20%; 
         display: grid; 
         grid-template-columns: 330px;
-        grid-template-rows: repeat(21, 420px);
+        grid-template-rows: repeat(22, 420px);
     }
     .container1 {
         grid-column: 1/2; 
@@ -1107,6 +1115,14 @@ h2 {
     .container20 {
         grid-column: 1/2; 
         grid-row: 20/21; 
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr;
+        align-self: center; 
+    }
+    .container21 {
+        grid-column: 1/2; 
+        grid-row: 21/22; 
         display: grid; 
         grid-template-columns: 1fr; 
         grid-template-rows: 1fr;
